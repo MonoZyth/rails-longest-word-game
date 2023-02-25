@@ -1,0 +1,74 @@
+Started GET "/" for ::1 at 2023-02-24 22:23:24 +0100
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/mono/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/mono/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.1ms | Allocations: 638)
+Completed 200 OK in 6ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 3472)
+
+
+Started GET "/new" for ::1 at 2023-02-24 22:24:00 +0100
+Processing by GamesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering games/new.html.erb within layouts/application
+  Rendered games/new.html.erb within layouts/application (Duration: 5.2ms | Allocations: 890)
+  Rendered layout layouts/application.html.erb (Duration: 161.0ms | Allocations: 70019)
+Completed 200 OK in 163ms (Views: 162.2ms | ActiveRecord: 0.0ms | Allocations: 71164)
+
+
+Started POST "/score" for ::1 at 2023-02-24 22:24:13 +0100
+Processing by GamesController#score as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "letters"=>"I S H W E N E B E O", "word"=>"new"}
+  Rendering layout layouts/application.html.erb
+  Rendering games/score.html.erb within layouts/application
+  Rendered games/score.html.erb within layouts/application (Duration: 2.6ms | Allocations: 437)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 2744)
+Completed 200 OK in 332ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 14837)
+
+
+Started GET "/new" for ::1 at 2023-02-24 22:24:17 +0100
+Processing by GamesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering games/new.html.erb within layouts/application
+  Rendered games/new.html.erb within layouts/application (Duration: 0.8ms | Allocations: 489)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 2684)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 3100)
+
+
+Started POST "/score" for ::1 at 2023-02-24 22:24:34 +0100
+Processing by GamesController#score as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "letters"=>"I I M S H X I O I Z", "word"=>"new"}
+  Rendering layout layouts/application.html.erb
+  Rendering games/score.html.erb within layouts/application
+  Rendered games/score.html.erb within layouts/application (Duration: 0.4ms | Allocations: 87)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 2397)
+Completed 200 OK in 242ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 4016)
+
+
+Started GET "/new" for ::1 at 2023-02-24 22:24:38 +0100
+Processing by GamesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering games/new.html.erb within layouts/application
+  Rendered games/new.html.erb within layouts/application (Duration: 0.9ms | Allocations: 495)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 2689)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms | Allocations: 3101)
+
+
+Started POST "/score" for ::1 at 2023-02-24 22:24:56 +0100
+Processing by GamesController#score as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "letters"=>"Y Q U V P Y C O J O", "word"=>"you"}
+  Rendering layout layouts/application.html.erb
+  Rendering games/score.html.erb within layouts/application
+  Rendered games/score.html.erb within layouts/application (Duration: 0.3ms | Allocations: 83)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 2389)
+Completed 200 OK in 230ms (Views: 5.3ms | ActiveRecord: 0.0ms | Allocations: 4026)
+
+
+Started GET "/new" for ::1 at 2023-02-24 22:24:59 +0100
+Processing by GamesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering games/new.html.erb within layouts/application
+  Rendered games/new.html.erb within layouts/application (Duration: 0.8ms | Allocations: 498)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 2692)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 3104)
+
+
